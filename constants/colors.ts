@@ -1,0 +1,46 @@
+export const COLORS = {
+  primary: '#FAAA6D',
+  background: '#F3F6F9',
+  card: '#FFFFFF',
+  textPrimary: '#0D1B2A',
+  textSecondary: '#546E7A',
+  textOnPrimary: '#FFFFFF',
+  surface: '#F3F4F6',
+  border: '#DCE3EA',
+  shadow: '#0D47A1',
+  accent: '#F37453',
+  tertiary: '#C94C6E',
+  accentSurface: '#F3F4F6',
+  logo: '#581abb',
+  danger: '#C62828',
+} as const;
+
+export const THEME_COLORS = [
+  { name: 'Sunset', primary: '#FAAA6D', accent: '#F37453', tertiary: '#C94C6E' },
+  { name: 'Clay', primary: '#F3775F', accent: '#A84623', tertiary: '#F9AF94' },
+  { name: 'Coastal', primary: '#156AA3', accent: '#BBCCE0', tertiary: '#CE9CA8' },
+  { name: 'Blossom', primary: '#FEE1E3', accent: '#F681B5', tertiary: '#F13E5B' },
+  { name: 'Candy', primary: '#EB3F71', accent: '#F77364', tertiary: '#FF93A6' },
+  { name: 'Sorbet', primary: '#FF94A4', accent: '#FF8303', tertiary: '#FFD9D4' },
+  { name: 'Lagoon', primary: '#08B3A1', accent: '#067A89', tertiary: '#CBDEB1' },
+  { name: 'Harbor', primary: '#D5E7F3', accent: '#73B3D9', tertiary: '#10367D' },
+  { name: 'Denim', primary: '#6782B1', accent: '#779EC9', tertiary: '#7E2F82' },
+  { name: 'Berry', primary: '#653388', accent: '#D95587', tertiary: '#C9256C' },
+  { name: 'Stone', primary: '#B5B1AE', accent: '#757B79', tertiary: '#FEAE97' },
+  { name: 'Tide', primary: '#A1CED3', accent: '#FD9282', tertiary: '#475268' },
+  { name: 'Tropic', primary: '#04B5A1', accent: '#FFD459', tertiary: '#ADDCC8' },
+  { name: 'Citrus', primary: '#67D8AD', accent: '#FF8303', tertiary: '#FDD981' },
+  { name: 'Rose', primary: '#EF4F75', accent: '#F37662', tertiary: '#F6B7B2' },
+  { name: 'Olive', primary: '#FA735F', accent: '#AAAC3F', tertiary: '#F6B6B4' },
+] as const;
+
+export const BACKGROUND_COLORS = [
+  { name: 'Cloud', light: '#F3F6F9', dark: '#171E26' },
+  { name: 'Mist', light: '#F1F4F7', dark: '#19212A' },
+  { name: 'Lavender', light: '#eddbff', dark: '#201D27' },
+  { name: 'Sage', light: '#d9f1d1', dark: '#1B221D' },
+  { name: 'Sand', light: '#f0e8d5', dark: '#242119' },
+  { name: 'Rose', light: '#F6F2F3', dark: '#241D21' },
+  { name: 'Slate', light: '#F0F3F5', dark: '#1C2227' },
+  { name: 'Ice', light: '#d3f1f9', dark: '#192226' },
+] as const;
